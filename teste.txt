@@ -1,1 +1,5 @@
-alo brasil
+Este arquivo  tem como objetivo mostrar que os escripts de criptografia e descriptografia corretamente.
+
+Foi feita uma alteração código original para permitir que o usuário dos scriptps possa informar a senha a ser utilizada ao criptografar e descriptograr outros arquivos.
+
+Isso permite que se altere a senha a cada uso e torna mais difícil que se analise os scripts.
