@@ -3,3 +3,22 @@ Este arquivo  tem como objetivo mostrar que os escripts de criptografia e descri
 Foi feita uma alteração código original para permitir que o usuário dos scriptps possa informar a senha a ser utilizada ao criptografar e descriptograr outros arquivos.
 
 Isso permite que se altere a senha a cada uso e torna mais difícil que se analise os scripts.
+
+
+=======================
+
+kali:/home/DIO-Cyber-Santander/cibersecurity-desafio-ransomware-master # python3 encrypter.py
+Digite o nome do arquivo a ser criptografado: teste.txt
+Digite a senha para criptografar o arquivo: 
+Arquivo criptografado com sucesso como "teste.txt.ransomwaretroll"
+kali:/home/DIO-Cyber-Santander/cibersecurity-desafio-ransomware-master # cat teste.txt.ransonwaretroll
+cat: teste.txt.ransonwaretroll: No such file or directory
+kali:/home/DIO-Cyber-Santander/cibersecurity-desafio-ransomware-master # cat teste.txt.ransomwaretroll
+$Iq��3g7օM����!y���i���ِ����0ꁗ�IԮ�
+yʸ�ũꨵ�1�n7E��}ҏeSQ�!h^芎B�޿v��D�˟���_�-x��ϓ�X���C��r����[���▒FrS�54���rB�nR5�▒!�a(�0��v(#�tb�K)�o�{���>� �}%r�`���E[�{��GټߊR�??v���|=P�
+��{J�8��Q��o���t��������Р�0��
+                             y�O�Wo�˛;^�{�B��z�
+                                               e,D� x���٘1Aly�[������-K�M��'W��s�ؓ[k!��+}?`�&��%��s�!�ЗF$�EiP���h_,s@�&q
+kali:/home/DIO-Cyber-Santander/cibersecurity-desafio-ransomware-master # python3 dencrypter.py
+
+========================
